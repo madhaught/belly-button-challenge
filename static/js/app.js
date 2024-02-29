@@ -72,9 +72,9 @@ function maddiePanel(person) {
 }
 
 // Update all the plots when a new sample is selected
-function optionChanged(dog) {
-    maddieCharts(dog);
-    maddiePanel(dog);
+function optionChanged(userInput) {
+    maddieCharts(userInput);
+    maddiePanel(userInput);
 }
 
 // Initialize functions for each selection
